@@ -1,0 +1,69 @@
+body{
+	margin: 0;
+}
+
+.myheader{
+	display: flex;
+	height: 10vh;
+	width: 100vw;
+	background-color: #EBEAEA;
+}
+
+.my_meny{
+	display: flex;
+}
+
+.mydefault_content{
+	background-color: #FEF6F6;
+	position: absolute;
+	min-height: 90vh;
+	width: 100vw;
+}
+
+.my_content{
+	margin-top: 10vh;
+	margin-left: 15vw;
+	margin-right: 10vw;
+	background-color: #FEF6F6;
+}
+
+.title_text{
+	margin-left: 10vw;
+	font-size: 18px;
+}
+
+.input_post{
+	opacity: 0;
+	height: 1px;
+	width: 1px;
+}
+
+.author{
+	margin-left: 5vw;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.comments_content{
+	margin-left: 3vw;
+	margin-right: 5vw;
+	margin-bottom: 5vh;
+}
+
+.comments_block{
+	background-color: #C5EEE0;
+	padding: 15px;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+}
+
+.add_comment{
+	margin-top: 2vh;
+}
+
+.mytext{
+	margin-left: 6px;
+	font-size: 13px;
+	font-style: italic;
+	opacity: 0.9;
+}
